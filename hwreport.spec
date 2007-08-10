@@ -1,6 +1,6 @@
 Summary:	Collect system informations for the hardware4linux.info site
 Name:		hwreport
-Version:	0.9.2
+Version:	0.9.3
 Release:	%mkrel 1
 Source0:	http://hardware4linux.info/res/%{name}-%{version}.tar.bz2
 License:	GPL
@@ -22,7 +22,7 @@ gcc %{optflags} -o scan-printers scan-printers.c
 rm -rf %{buildroot}
 install -m755 scan-printers -D %{buildroot}%{_bindir}/scan-printers
 install -m755 hwreport -D %{buildroot}%{_sbindir}/hwreport
-install -m755 osinfo -D %{buildroot}%{_bindir}/osinfo
+#install -m755 osinfo -D %{buildroot}%{_bindir}/osinfo
 
 %clean
 rm -rf %{buildroot}
@@ -31,4 +31,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/scan-printers
 %{_sbindir}/hwreport
-%{_bindir}/osinfo
+#%{_bindir}/osinfo
