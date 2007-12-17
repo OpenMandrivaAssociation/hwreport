@@ -6,7 +6,6 @@ Source0:	http://hardware4linux.info/res/%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		System/Kernel and hardware
 Url:		http://hardware4linux.info/
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	dmidecode
 
 %description
