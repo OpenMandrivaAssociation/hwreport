@@ -8,6 +8,7 @@ Group:		System/Kernel and hardware
 Url:		http://hardware4linux.info/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	dmidecode
+Provides: lsb-hardware4linux.info-collector
 
 %description
 Collect system informations for the hardware4linux.info site.
