@@ -7,7 +7,7 @@ License:	GPL
 Group:		System/Kernel and hardware
 Url:		http://hardware4linux.info/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
-Requires:	dmidecode
+Requires:	dmidecode pciutils
 Provides: lsb-hardware4linux.info-collector
 
 %description
