@@ -1,7 +1,7 @@
 Summary:	Collect system informations for the hardware4linux.info site
 Name:		hwreport
 Version:	0.10.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	http://hardware4linux.info/res/%{name}-%{version}.tar.bz2
 License:	GPLv2+
 Group:		System/Kernel and hardware
