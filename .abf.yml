@@ -1,2 +1,4 @@
+removed_sources:
+  hwreport-0.10.0.tar.bz2: d363710be0e66f09ab2e929596da728dfd7fd58c
 sources:
-  "hwreport-0.10.0.tar.bz2": d363710be0e66f09ab2e929596da728dfd7fd58c
+  hwreport-0.11.0.tar.bz2: 718f92d60324e823b14e571dff2c780a056074dc
