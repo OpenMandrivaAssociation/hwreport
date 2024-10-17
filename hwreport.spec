@@ -4,7 +4,7 @@ Version:	0.11.0
 Release:	12
 License:	GPLv2+
 Group:		System/Kernel and hardware
-Url:		http://hardware4linux.info/
+Url:		https://hardware4linux.info/
 Source0:	http://hardware4linux.info/res/%{name}-%{version}.tar.bz2
 Requires:	dmidecode
 Requires:	pciutils
